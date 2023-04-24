@@ -1,0 +1,12 @@
+.table-section{
+    margin-top:10px;
+}
+table{
+    width: 100%;
+    background: #e4e4e4;
+}
+table td {
+    width: 33%;
+    text-align: center;
+    padding: 20px 0;
+}

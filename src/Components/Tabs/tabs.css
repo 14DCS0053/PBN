@@ -1,0 +1,21 @@
+.tab-container {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+.tab-container .tab {
+  margin-right: 10px;
+  color: #b4aeae;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.tab-container .tab.active {
+  background-color: #c5d0eb;
+  color: #000;
+}
+.tab-container {
+  justify-content: space-between;
+}
+.tab-title {
+  font-size: 21px;
+}

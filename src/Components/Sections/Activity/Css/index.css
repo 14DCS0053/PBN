@@ -1,0 +1,11 @@
+.activity-section .activity-filter-block {
+  width: 200px;
+}
+.action-notification-block {
+  width: calc(100% - 200px);
+  gap: 50px;
+}
+.action-notification-block > *{
+  width: 50%;
+}
+

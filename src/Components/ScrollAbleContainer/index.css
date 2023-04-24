@@ -1,0 +1,16 @@
+.scrollable-container{
+    overflow: hidden;
+    overflow-y: auto;
+}
+.scrollable-content {
+    padding-right: 26px;
+}
+.scrollable-content:empty:after {
+    content: "No Data to show";
+    height: 100%;
+    display: flex;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
